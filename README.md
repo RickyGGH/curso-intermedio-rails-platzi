@@ -2,6 +2,10 @@ Archivos de curso intermedio Rails de la plataforma Platzi, con dependencias act
 
 INSTALACIÓN:
 
+gem pristine ffi sassc
+
+bundle update ffi sassc
+
 Mongodb: 
 * brew tap mongodb/brew 
 * brew install mongodb-community@6.0 
@@ -10,3 +14,5 @@ Mongodb:
 bundle 
 
 yarn
+
+rake db:migrate
