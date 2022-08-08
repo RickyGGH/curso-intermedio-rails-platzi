@@ -1,24 +1,12 @@
-# README
+Archivos de curso intermedio Rails de la plataforma Platzi, con dependencias actualizadas (https://platzi.com/cursos/intermedio-ror/)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+INSTALACIÓN:
 
-Things you may want to cover:
+Mongodb: 
+* brew tap mongodb/brew 
+* brew install mongodb-community@6.0 
+* brew services start mongodb-community@6.0
 
-* Ruby version
+bundle 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+yarn
