@@ -1,0 +1,38 @@
+{
+  "application.js": "/packs-test/js/application-b42cb12d30df50b2b1fc.js",
+  "application.js.map": "/packs-test/js/application-b42cb12d30df50b2b1fc.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs-test/js/application-b42cb12d30df50b2b1fc.js"
+      ],
+      "js.map": [
+        "/packs-test/js/application-b42cb12d30df50b2b1fc.js.map"
+      ]
+    }
+  },
+  "media/roboto/Roboto-Black.woff": "/packs-test/media/roboto/Roboto-Black-937491df.woff",
+  "media/roboto/Roboto-Black.woff2": "/packs-test/media/roboto/Roboto-Black-41ed1105.woff2",
+  "media/roboto/Roboto-BlackItalic.woff": "/packs-test/media/roboto/Roboto-BlackItalic-2e1ee657.woff",
+  "media/roboto/Roboto-BlackItalic.woff2": "/packs-test/media/roboto/Roboto-BlackItalic-50ca4c51.woff2",
+  "media/roboto/Roboto-Bold.woff": "/packs-test/media/roboto/Roboto-Bold-73288d91.woff",
+  "media/roboto/Roboto-Bold.woff2": "/packs-test/media/roboto/Roboto-Bold-92fbd4e9.woff2",
+  "media/roboto/Roboto-BoldItalic.woff": "/packs-test/media/roboto/Roboto-BoldItalic-6d89acbd.woff",
+  "media/roboto/Roboto-BoldItalic.woff2": "/packs-test/media/roboto/Roboto-BoldItalic-5f600d98.woff2",
+  "media/roboto/Roboto-Light.woff": "/packs-test/media/roboto/Roboto-Light-d923dfaf.woff",
+  "media/roboto/Roboto-Light.woff2": "/packs-test/media/roboto/Roboto-Light-c27d89ac.woff2",
+  "media/roboto/Roboto-LightItalic.woff": "/packs-test/media/roboto/Roboto-LightItalic-d4b8c137.woff",
+  "media/roboto/Roboto-LightItalic.woff2": "/packs-test/media/roboto/Roboto-LightItalic-506274c7.woff2",
+  "media/roboto/Roboto-Medium.woff": "/packs-test/media/roboto/Roboto-Medium-092c6130.woff",
+  "media/roboto/Roboto-Medium.woff2": "/packs-test/media/roboto/Roboto-Medium-1d3bced8.woff2",
+  "media/roboto/Roboto-MediumItalic.woff": "/packs-test/media/roboto/Roboto-MediumItalic-18ff1628.woff",
+  "media/roboto/Roboto-MediumItalic.woff2": "/packs-test/media/roboto/Roboto-MediumItalic-d620b8f5.woff2",
+  "media/roboto/Roboto-Regular.woff": "/packs-test/media/roboto/Roboto-Regular-e02e9d6f.woff",
+  "media/roboto/Roboto-Regular.woff2": "/packs-test/media/roboto/Roboto-Regular-64cfb66c.woff2",
+  "media/roboto/Roboto-RegularItalic.woff": "/packs-test/media/roboto/Roboto-RegularItalic-5ea38fff.woff",
+  "media/roboto/Roboto-RegularItalic.woff2": "/packs-test/media/roboto/Roboto-RegularItalic-4dd2af1e.woff2",
+  "media/roboto/Roboto-Thin.woff": "/packs-test/media/roboto/Roboto-Thin-e7f7c823.woff",
+  "media/roboto/Roboto-Thin.woff2": "/packs-test/media/roboto/Roboto-Thin-dbd56bd3.woff2",
+  "media/roboto/Roboto-ThinItalic.woff": "/packs-test/media/roboto/Roboto-ThinItalic-5dd9349c.woff",
+  "media/roboto/Roboto-ThinItalic.woff2": "/packs-test/media/roboto/Roboto-ThinItalic-a8cef84f.woff2"
+}

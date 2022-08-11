@@ -1,0 +1,817 @@
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Waiting for up to 30.00 seconds for servers to be scanned: #<Cluster topology=Unknown[localhost:27017] servers=[#<Server address=localhost:27017 UNKNOWN>]>
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x17800 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x17780 config={"ismaster"=>true, "topologyVersion"=>{"processId"=>BSON::ObjectId('62f11fa7b082ee54088d20be'), "counter"=>0}, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2022-08-11 11:25:11.011 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>10, "minWireVersion"=>0, "maxWireVersion"=>17, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.019592>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x17780 config={"ismaster"=>true, "topologyVersion"=>{"processId"=>BSON::ObjectId('62f11fa7b082ee54088d20be'), "counter"=>0}, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2022-08-11 11:25:11.011 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>10, "minWireVersion"=>0, "maxWireVersion"=>17, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.019592> new=#<Mongo::Server:Description:0x17860 config={"ismaster"=>true, "topologyVersion"=>{"processId"=>BSON::ObjectId('62f11fa7b082ee54088d20be'), "counter"=>0}, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2022-08-11 11:25:11.013 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>11, "minWireVersion"=>0, "maxWireVersion"=>17, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.015818>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | [7] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [7] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.003s
+MONGODB | [8] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [8] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | [9] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [9] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [10] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [10] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [11] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [11] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | [12] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [12] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [13] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [13] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [14] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [14] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [15] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [15] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [16] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [16] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [17] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [17] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [18] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [18] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [19] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [19] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [20] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [20] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [21] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [21] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [22] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [22] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [23] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [23] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [24] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [24] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [25] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [25] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [26] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [26] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [27] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [27] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [28] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [28] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [29] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"name"=>"Categoria 1"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [29] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [30] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"categories", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e718c0411c8106bc4879'), "name"=>"Categoria 1", "description"=>"Sequi quia officiis velit.", "updated_at"=>2022-08-11 11:25:12.68247 UTC, "created_at"=>2022-08-11 11:25...
+MONGODB | [30] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.151s
+MONGODB | [31] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person1@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [31] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [32] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e718c0411c8106bc487a'), "email"=>"person1@example.com", "encrypted_password"=>"$2a$04$UTRxFlXWW.SdTVHb94y2y.gBoex6KwuKHZ50YZF0ET51LGavJinIa", "updated_at"=>2022-08-11 11:25...
+MONGODB | [32] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.089s
+MONGODB | [33] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person2@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [33] localhost:27017 | organizador_test.find | SUCCEEDED | 0.003s
+MONGODB | [34] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person3@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [34] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [35] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"participants", "ordered"=>true, "updates"=>[{"q"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc487d'), "_id"=>{"$nin"=>[BSON::ObjectId('62f4e718c0411c8106bc487b'), BSON::ObjectId('62f4e719c0411c8106bc487c')]}}, "u"=>{"$set"=>{"task_id"=...
+MONGODB | [35] localhost:27017 | organizador_test.update | SUCCEEDED | 0.004s
+MONGODB | [36] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Mi tarea"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [36] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [37] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [37] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [38] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [38] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.005s
+MONGODB | [39] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [39] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [40] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"name"=>"Categoria 2"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [40] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [41] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"categories", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc487e'), "name"=>"Categoria 2", "description"=>"Velit aut dolores suscipit.", "updated_at"=>2022-08-11 11:25:13.063112 UTC, "created_at"=>2022-08-11 11:...
+MONGODB | [41] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.001s
+MONGODB | [42] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person4@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [42] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [43] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc487f'), "email"=>"person4@example.com", "encrypted_password"=>"$2a$04$DDAdC5XcfyTN6Qezus.Y0elTD8UWEbIF2zoHF4OdsvhGOtYgWiSmu", "updated_at"=>2022-08-11 11:25...
+MONGODB | [43] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [44] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person5@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [44] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [45] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person6@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [45] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [46] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"participants", "ordered"=>true, "updates"=>[{"q"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4882'), "_id"=>{"$nin"=>[BSON::ObjectId('62f4e719c0411c8106bc4880'), BSON::ObjectId('62f4e719c0411c8106bc4881')]}}, "u"=>{"$set"=>{"task_id"=...
+MONGODB | [46] localhost:27017 | organizador_test.update | SUCCEEDED | 0.000s
+MONGODB | [47] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Mi tarea"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [47] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [48] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"tasks", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4882'), "transitions"=>[], "name"=>"Mi tarea", "description"=>"desc", "due_date"=>2022-08-16 00:00:00 UTC, "category_id"=>BSON::ObjectId('62f4e719c0411c8106...
+MONGODB | [48] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.088s
+MONGODB | [49] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4882')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [49] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [50] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4880'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc4883'), "role"=>1, "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4882'), "updated_at"=>2022-0...
+MONGODB | [50] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.117s
+MONGODB | [51] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4881'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc4884'), "role"=>2, "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4882'), "updated_at"=>2022-0...
+MONGODB | [51] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.001s
+MONGODB | [52] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [52] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | [53] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [53] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.001s
+MONGODB | [54] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [54] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [55] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [55] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.001s
+MONGODB | [56] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [56] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.001s
+MONGODB | [57] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"name"=>"Categoria 3"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [57] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [58] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"categories", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4885'), "name"=>"Categoria 3", "description"=>"Eaque suscipit dolores dolor.", "updated_at"=>2022-08-11 11:25:13.389878 UTC, "created_at"=>2022-08-11 1...
+MONGODB | [58] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.001s
+MONGODB | [59] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person7@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [59] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [60] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4886'), "email"=>"person7@example.com", "encrypted_password"=>"$2a$04$yEMfTHEALvJjulwItjUpzORkNuqclik.h57H6XNoNr/1HvYiGRgK2", "updated_at"=>2022-08-11 11:25...
+MONGODB | [60] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.001s
+MONGODB | [61] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person8@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [61] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [62] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person9@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [62] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [63] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"participants", "ordered"=>true, "updates"=>[{"q"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4889'), "_id"=>{"$nin"=>[BSON::ObjectId('62f4e719c0411c8106bc4887'), BSON::ObjectId('62f4e719c0411c8106bc4888')]}}, "u"=>{"$set"=>{"task_id"=...
+MONGODB | [63] localhost:27017 | organizador_test.update | SUCCEEDED | 0.003s
+MONGODB | [64] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Mi tarea"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [64] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [65] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"tasks", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4889'), "transitions"=>[], "name"=>"Mi tarea", "description"=>"desc", "due_date"=>2022-08-16 00:00:00 UTC, "category_id"=>BSON::ObjectId('62f4e719c0411c8106...
+MONGODB | [65] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [66] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4889')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [66] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [67] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4887'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc488a'), "role"=>1, "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4889'), "updated_at"=>2022-0...
+MONGODB | [67] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [68] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4888'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc488b'), "role"=>2, "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4889'), "updated_at"=>2022-0...
+MONGODB | [68] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [69] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [69] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [70] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [70] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.001s
+MONGODB | [71] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [71] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [72] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [72] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [73] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [73] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [74] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"name"=>"Categoria 4"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [74] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [75] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"categories", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc488c'), "name"=>"Categoria 4", "description"=>"Voluptas velit asperiores enim.", "updated_at"=>2022-08-11 11:25:13.496273 UTC, "created_at"=>2022-08-11...
+MONGODB | [75] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [76] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person10@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [76] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [77] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc488d'), "email"=>"person10@example.com", "encrypted_password"=>"$2a$04$0L0zHA9lXJO5j8WK5gsUdeWrIVGkYMehgt83B41sS.RXDTjh1.lRW", "updated_at"=>2022-08-11 11:2...
+MONGODB | [77] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [78] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person11@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [78] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [79] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person12@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [79] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [80] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"participants", "ordered"=>true, "updates"=>[{"q"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4890'), "_id"=>{"$nin"=>[BSON::ObjectId('62f4e719c0411c8106bc488e'), BSON::ObjectId('62f4e719c0411c8106bc488f')]}}, "u"=>{"$set"=>{"task_id"=...
+MONGODB | [80] localhost:27017 | organizador_test.update | SUCCEEDED | 0.001s
+MONGODB | [81] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Mi tarea"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [81] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [82] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [82] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [83] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [83] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [84] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [84] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [85] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [85] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [86] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [86] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [87] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person14@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [87] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [88] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4893'), "email"=>"person14@example.com", "encrypted_password"=>"$2a$04$L93LZhXyqGC6/JbVQK5gY.Nbz6eOOGWjLndBRt6yoN7EN9caz.CBG", "updated_at"=>2022-08-11 11:2...
+MONGODB | [88] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [89] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person15@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [89] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [90] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4895'), "email"=>"person15@example.com", "encrypted_password"=>"$2a$04$dHZT8PUeslVaG8cxSFVySOXrD8O6iB2JEM/GyfdN.hj7TigkC6IvO", "updated_at"=>2022-08-11 11:2...
+MONGODB | [90] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [91] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person16@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [91] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [92] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4897'), "email"=>"person16@example.com", "encrypted_password"=>"$2a$04$8UUEMMIG1r0xU24lslwwU.VMpMBeJbRkms1wg5dXP3E19Mc83IiI2", "updated_at"=>2022-08-11 11:2...
+MONGODB | [92] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [93] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person17@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [93] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [94] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4899'), "email"=>"person17@example.com", "encrypted_password"=>"$2a$04$OVUFru3tlsyG4adVgr5eHOH5zmBlaA2alQ6j/CcgcsAUXM/h0pTMK", "updated_at"=>2022-08-11 11:2...
+MONGODB | [94] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [95] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"participants", "ordered"=>true, "updates"=>[{"q"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4891'), "_id"=>{"$nin"=>[BSON::ObjectId('62f4e719c0411c8106bc4892'), BSON::ObjectId('62f4e719c0411c8106bc4894'), BSON::ObjectId('62f4e719c041...
+MONGODB | [95] localhost:27017 | organizador_test.update | SUCCEEDED | 0.001s
+MONGODB | [96] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 1"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [96] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [97] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"name"=>"Categoria 5"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [97] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [98] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"categories", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc489a'), "name"=>"Categoria 5", "description"=>"Sed blanditiis minima vel.", "updated_at"=>2022-08-11 11:25:13.594527 UTC, "created_at"=>2022-08-11 11:2...
+MONGODB | [98] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [99] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person13@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [99] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [100] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 1"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [100] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [101] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc489b'), "email"=>"person13@example.com", "encrypted_password"=>"$2a$04$ySLRl1aiUdKH2QXf3ssWWO5JcM7X5XzHxdy/t1uUaDiHWRgKgLDAu", "updated_at"=>2022-08-11 11:2...
+MONGODB | [101] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [102] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 1"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [102] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [103] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"tasks", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4891'), "transitions"=>[], "status"=>"pending", "name"=>"Tarea 1", "description"=>"Descripcion 1", "due_date"=>2022-08-26 00:00:00 UTC, "category_id"=>BSON:...
+MONGODB | [103] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [104] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4891')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [104] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [105] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4892'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc4893'), "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4891'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [105] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [106] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4894'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc4895'), "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4891'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [106] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [107] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4896'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc4897'), "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4891'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [107] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [108] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc4898'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc4899'), "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc4891'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [108] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [109] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [109] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [110] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [110] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [111] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [111] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [112] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [112] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [113] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [113] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [114] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person19@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [114] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [115] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc489e'), "email"=>"person19@example.com", "encrypted_password"=>"$2a$04$uac28OzKQNUUgajdEOoh/OhQFqBspqtpz2f2DTjmPRtZT/d70BFG.", "updated_at"=>2022-08-11 11:2...
+MONGODB | [115] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [116] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person20@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [116] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [117] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a0'), "email"=>"person20@example.com", "encrypted_password"=>"$2a$04$yhQhFLKkk1nvF9FkRqaLeufLw7WvWHQDnDAFMufHLVCs7taO.y/HS", "updated_at"=>2022-08-11 11:2...
+MONGODB | [117] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.001s
+MONGODB | [118] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person21@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [118] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [119] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a2'), "email"=>"person21@example.com", "encrypted_password"=>"$2a$04$ZzbD.FX.8k1bUY/e/O3GI.iYmVAOMMVXH5rTtphYK3425yXe/qOiy", "updated_at"=>2022-08-11 11:2...
+MONGODB | [119] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [120] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person22@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [120] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [121] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a4'), "email"=>"person22@example.com", "encrypted_password"=>"$2a$04$AmugGlln3cibfdAgNzg9h.IrvDvR3halaYzvwVCYUuen7.byrrOlu", "updated_at"=>2022-08-11 11:2...
+MONGODB | [121] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [122] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"participants", "ordered"=>true, "updates"=>[{"q"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc489c'), "_id"=>{"$nin"=>[BSON::ObjectId('62f4e719c0411c8106bc489d'), BSON::ObjectId('62f4e719c0411c8106bc489f'), BSON::ObjectId('62f4e719c041...
+MONGODB | [122] localhost:27017 | organizador_test.update | SUCCEEDED | 0.001s
+MONGODB | [123] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 2"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [123] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [124] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"name"=>"Categoria 6"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [124] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [125] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"categories", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a5'), "name"=>"Categoria 6", "description"=>"Dolorum vel iste molestiae.", "updated_at"=>2022-08-11 11:25:13.692494 UTC, "created_at"=>2022-08-11 11:...
+MONGODB | [125] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [126] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person18@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [126] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [127] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 2"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [127] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [128] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a6'), "email"=>"person18@example.com", "encrypted_password"=>"$2a$04$GDlUJlkMjfFrGu20.48PVO6YpwTRgDoqmeK2CT8quKuSwo2OnW7Qm", "updated_at"=>2022-08-11 11:2...
+MONGODB | [128] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [129] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 2"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [129] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [130] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"tasks", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc489c'), "transitions"=>[], "status"=>"pending", "name"=>"Tarea 2", "description"=>"Descripcion 2", "due_date"=>2022-08-26 00:00:00 UTC, "category_id"=>BSON:...
+MONGODB | [130] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [131] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc489c')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [131] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [132] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc489d'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc489e'), "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc489c'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [132] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [133] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc489f'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a0'), "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc489c'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [133] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [134] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a1'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a2'), "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc489c'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [134] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [135] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a3'), "user_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a4'), "task_id"=>BSON::ObjectId('62f4e719c0411c8106bc489c'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [135] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [136] localhost:27017 #1 | organizador_test.count | STARTED | {"count"=>"participants", "query"=>{"task_id"=>BSON::ObjectId('62f4e719c0411c8106bc489c')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [136] localhost:27017 | organizador_test.count | SUCCEEDED | 0.001s
+MONGODB | [137] localhost:27017 #1 | organizador_test.count | STARTED | {"count"=>"participants", "query"=>{}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [137] localhost:27017 | organizador_test.count | SUCCEEDED | 0.001s
+MONGODB | [138] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [138] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [139] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [139] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [140] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [140] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [141] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [141] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [142] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [142] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [143] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person23@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [143] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [144] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a7'), "email"=>"person23@example.com", "encrypted_password"=>"$2a$04$FUzq9WenibSeACS1p7Ke9um3GHUjHoCClwJfTUKs2wuFhAqdiFzMy", "updated_at"=>2022-08-11 11:2...
+MONGODB | [144] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+Started GET "/tasks" for 127.0.0.1 at 2022-08-11 08:25:13 -0300
+Processing by TasksController#index as HTML
+MONGODB | [145] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"user_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a7')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [145] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [146] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"owner_id"=>BSON::ObjectId('62f4e719c0411c8106bc48a7')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [146] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+  Rendering tasks/index.html.haml within layouts/application
+  Rendered tasks/index.html.haml within layouts/application (Duration: 17.4ms | Allocations: 17306)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/nicolas/environment/curso-intermedio-rails-platzi/public/packs-test
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: db39b95250665817fc13
+Version: webpack 4.46.0
+Time: 2530ms
+Built at: 08/11/2022 8:25:17 AM
+                                           Asset      Size       Chunks                         Chunk Names
+          js/application-b42cb12d30df50b2b1fc.js  1.49 MiB  application  [emitted] [immutable]  application
+      js/application-b42cb12d30df50b2b1fc.js.map  1.64 MiB  application  [emitted] [dev]        application
+                                   manifest.json  2.68 KiB               [emitted]              
+        media/roboto/Roboto-Black-41ed1105.woff2  63.4 KiB               [emitted]              
+         media/roboto/Roboto-Black-937491df.woff  84.5 KiB               [emitted]              
+   media/roboto/Roboto-BlackItalic-2e1ee657.woff  91.8 KiB               [emitted]              
+  media/roboto/Roboto-BlackItalic-50ca4c51.woff2  70.4 KiB               [emitted]              
+          media/roboto/Roboto-Bold-73288d91.woff  84.2 KiB               [emitted]              
+         media/roboto/Roboto-Bold-92fbd4e9.woff2  63.2 KiB               [emitted]              
+   media/roboto/Roboto-BoldItalic-5f600d98.woff2  68.7 KiB               [emitted]              
+    media/roboto/Roboto-BoldItalic-6d89acbd.woff  89.8 KiB               [emitted]              
+        media/roboto/Roboto-Light-c27d89ac.woff2  62.8 KiB               [emitted]              
+         media/roboto/Roboto-Light-d923dfaf.woff  83.7 KiB               [emitted]              
+  media/roboto/Roboto-LightItalic-506274c7.woff2  69.1 KiB               [emitted]              
+   media/roboto/Roboto-LightItalic-d4b8c137.woff  90.7 KiB               [emitted]              
+        media/roboto/Roboto-Medium-092c6130.woff  84.4 KiB               [emitted]              
+       media/roboto/Roboto-Medium-1d3bced8.woff2  63.9 KiB               [emitted]              
+  media/roboto/Roboto-MediumItalic-18ff1628.woff    91 KiB               [emitted]              
+ media/roboto/Roboto-MediumItalic-d620b8f5.woff2  69.6 KiB               [emitted]              
+      media/roboto/Roboto-Regular-64cfb66c.woff2  63.1 KiB               [emitted]              
+       media/roboto/Roboto-Regular-e02e9d6f.woff  83.9 KiB               [emitted]              
+media/roboto/Roboto-RegularItalic-4dd2af1e.woff2  68.6 KiB               [emitted]              
+ media/roboto/Roboto-RegularItalic-5ea38fff.woff  89.6 KiB               [emitted]              
+         media/roboto/Roboto-Thin-dbd56bd3.woff2  61.6 KiB               [emitted]              
+          media/roboto/Roboto-Thin-e7f7c823.woff  82.3 KiB               [emitted]              
+    media/roboto/Roboto-ThinItalic-5dd9349c.woff  88.7 KiB               [emitted]              
+   media/roboto/Roboto-ThinItalic-a8cef84f.woff2  66.7 KiB               [emitted]              
+Entrypoint application = js/application-b42cb12d30df50b2b1fc.js js/application-b42cb12d30df50b2b1fc.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 908 bytes {application} [built]
+[./app/javascript/src/javascripts/main.coffee] 711 bytes {application} [built]
+[./app/javascript/src/stylesheets/application.sass] 676 bytes {application} [built]
+[./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./app/javascript/src/stylesheets/application.sass] ./node_modules/css-loader/dist/cjs.js??ref--7-1!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./app/javascript/src/stylesheets/application.sass 707 KiB {application} [built]
+[./node_modules/webpack/buildin/global.js] (webpack)/buildin/global.js 475 bytes {application} [built]
+    + 39 hidden modules
+
+  Rendered layouts/_navbar.html.haml (Duration: 18.7ms | Allocations: 11310)
+  Rendered layouts/_messages.html.haml (Duration: 4.5ms | Allocations: 4180)
+Completed 200 OK in 4215ms (Views: 4206.9ms | MongoDB: 0.0ms | Allocations: 134043)
+MONGODB | [147] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [147] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.001s
+MONGODB | [148] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [148] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [149] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [149] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.001s
+MONGODB | [150] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [150] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [151] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [151] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [152] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person24@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [152] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [153] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71dc0411c8106bc48a8'), "email"=>"person24@example.com", "encrypted_password"=>"$2a$04$0EcM8.l7b3CHDpUPe/WbnejVKG5hMOJ6YyWTzVTb4bAmbs9WzA6C6", "updated_at"=>2022-08-11 11:2...
+MONGODB | [153] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+Started GET "/tasks/new" for 127.0.0.1 at 2022-08-11 08:25:17 -0300
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.haml within layouts/application
+MONGODB | [154] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [154] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [155] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [155] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+  Rendered tasks/_participating_user_fields.html.haml (Duration: 8.1ms | Allocations: 6729)
+MONGODB | [156] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48aa')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [156] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+  Rendered tasks/_form.html.haml (Duration: 62.6ms | Allocations: 30929)
+  Rendered tasks/new.html.haml within layouts/application (Duration: 66.3ms | Allocations: 33722)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.haml (Duration: 0.8ms | Allocations: 595)
+  Rendered layouts/_messages.html.haml (Duration: 0.1ms | Allocations: 24)
+Completed 200 OK in 76ms (Views: 73.7ms | MongoDB: 0.0ms | Allocations: 40108)
+MONGODB | [157] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [157] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [158] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [158] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [159] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [159] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [160] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [160] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [161] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [161] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [162] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person25@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [162] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [163] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48ab'), "email"=>"person25@example.com", "encrypted_password"=>"$2a$04$WfvEf8.rT5h1DFakaW7prODo7MVECvga5IR6nBMKVykKp56E2yMXW", "updated_at"=>2022-08-11 11:2...
+MONGODB | [163] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.001s
+MONGODB | [164] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"name"=>"Categoria 7"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [164] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [165] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"categories", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48ac'), "name"=>"Categoria 7", "description"=>"Illo aperiam non voluptatem.", "updated_at"=>2022-08-11 11:25:18.093498 UTC, "created_at"=>2022-08-11 11...
+MONGODB | [165] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [166] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person26@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [166] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [167] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48ad'), "email"=>"person26@example.com", "encrypted_password"=>"$2a$04$h2..j7otG8TYBBkx/9FjQOOsM90nAWItJkk1d7otcpKuBB82iXBKm", "updated_at"=>2022-08-11 11:2...
+MONGODB | [167] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+Started POST "/tasks" for 127.0.0.1 at 2022-08-11 08:25:18 -0300
+Processing by TasksController#create as HTML
+  Parameters: {"task"=>{"name"=>"test 7", "due_date"=>"2022-08-16", "category_id"=>"62f4e71ec0411c8106bc48ac", "description"=>"test", "participating_users_attributes"=>{"0"=>{"user_id"=>"62f4e71ec0411c8106bc48ad", "role"=>"1", "_destroy"=>"false"}}}}
+MONGODB | [168] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48ac')}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [168] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [169] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48ad')}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [169] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [170] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"test 7"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [170] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [171] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"tasks", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b1'), "transitions"=>[], "name"=>"test 7", "description"=>"test", "due_date"=>2022-08-16 00:00:00 UTC, "category_id"=>BSON::ObjectId('62f4e71ec0411c8106bc...
+MONGODB | [171] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [172] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b1')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [172] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [173] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b0'), "user_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48ad'), "role"=>1, "task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b1'), "updated_at"=>2022-0...
+MONGODB | [173] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+Redirected to http://www.example.com/tasks/62f4e71ec0411c8106bc48b1
+Completed 302 Found in 15ms (MongoDB: 0.0ms | Allocations: 6706)
+Started GET "/tasks/62f4e71ec0411c8106bc48b1" for 127.0.0.1 at 2022-08-11 08:25:18 -0300
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"62f4e71ec0411c8106bc48b1"}
+MONGODB | [174] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48ab')}, "sort"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [174] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [175] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b1'), "$and"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b1')}]}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [175] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [176] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b1')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [176] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [177] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b1'), "$and"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b1')}]}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [177] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+  Rendering tasks/show.html.haml within layouts/application
+MONGODB | [178] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48ac')}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [178] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [179] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48ab')}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [179] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [180] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b1')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [180] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [181] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>{"$in"=>[BSON::ObjectId('62f4e71ec0411c8106bc48ad')]}}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [181] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [182] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"notes", "filter"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b1')}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [182] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+  Rendered tasks/show.html.haml within layouts/application (Duration: 24.6ms | Allocations: 22814)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.haml (Duration: 0.7ms | Allocations: 598)
+  Rendered layouts/_messages.html.haml (Duration: 0.1ms | Allocations: 47)
+Completed 200 OK in 40ms (Views: 32.2ms | MongoDB: 0.0ms | Allocations: 31810)
+MONGODB | [183] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [183] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [184] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [184] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [185] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [185] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [186] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [186] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [187] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [187] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [188] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person27@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [188] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [189] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b2'), "email"=>"person27@example.com", "encrypted_password"=>"$2a$04$M/8SfRhSSJbrgK/LNJBuJOopNpsEa9NCfsBD8SQSRbNoMKuzI97Xi", "updated_at"=>2022-08-11 11:2...
+MONGODB | [189] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [190] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person28@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [190] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [191] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b5'), "email"=>"person28@example.com", "encrypted_password"=>"$2a$04$Mol5G0MfeY/nMCzb80goAeGFu5CVSv/RZUNoN5jgxi/uj63oKu/fu", "updated_at"=>2022-08-11 11:2...
+MONGODB | [191] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [192] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person29@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [192] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [193] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b7'), "email"=>"person29@example.com", "encrypted_password"=>"$2a$04$X3TR9h25DYIo2Q8f6DLm5OzwR/NUKU2P9J7joJat13jbLppJ2jd2a", "updated_at"=>2022-08-11 11:2...
+MONGODB | [193] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [194] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person30@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [194] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [195] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b9'), "email"=>"person30@example.com", "encrypted_password"=>"$2a$04$QTTwU6QgoG66G8iHBAkju.ONSPH0LBHzxu6eGJL66r0bcJilA3zGC", "updated_at"=>2022-08-11 11:2...
+MONGODB | [195] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [196] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person31@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [196] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [197] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bb'), "email"=>"person31@example.com", "encrypted_password"=>"$2a$04$JcuuZuYxs0Nu1a/JuyBGs.RroAp/slL6uZKamqq4xlsM48G/3aCjm", "updated_at"=>2022-08-11 11:2...
+MONGODB | [197] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.001s
+MONGODB | [198] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"participants", "ordered"=>true, "updates"=>[{"q"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3'), "_id"=>{"$nin"=>[BSON::ObjectId('62f4e71ec0411c8106bc48b4'), BSON::ObjectId('62f4e71ec0411c8106bc48b6'), BSON::ObjectId('62f4e71ec041...
+MONGODB | [198] localhost:27017 | organizador_test.update | SUCCEEDED | 0.001s
+MONGODB | [199] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 3"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [199] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [200] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"name"=>"Categoria 8"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [200] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [201] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"categories", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bc'), "name"=>"Categoria 8", "description"=>"Sunt voluptatum excepturi ipsum.", "updated_at"=>2022-08-11 11:25:18.266838 UTC, "created_at"=>2022-08-1...
+MONGODB | [201] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [202] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 3"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [202] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [203] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 3"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [203] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [204] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"tasks", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3'), "transitions"=>[], "status"=>"pending", "name"=>"Tarea 3", "description"=>"Descripcion 3", "due_date"=>2022-08-26 00:00:00 UTC, "category_id"=>BSON:...
+MONGODB | [204] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [205] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [205] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [206] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b4'), "user_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b5'), "task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [206] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [207] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b6'), "user_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b7'), "task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [207] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [208] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b8'), "user_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b9'), "task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [208] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [209] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48ba'), "user_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bb'), "task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [209] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+Started PATCH "/tasks/62f4e71ec0411c8106bc48b3/trigger.js?event=start" for 127.0.0.1 at 2022-08-11 08:25:18 -0300
+Processing by TasksController#trigger as JS
+  Parameters: {"event"=>"start", "id"=>"62f4e71ec0411c8106bc48b3"}
+MONGODB | [210] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3'), "$and"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3')}]}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [210] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [211] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3'), "$and"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3')}]}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [211] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [212] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"tasks", "ordered"=>true, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3')}, "u"=>{"$set"=>{"transitions"=>[{"from_state"=>:pending, "to_state"=>:in_process, "current_event"=>:start!, "timestamp"=>2022-08-11 11:25:18.305...
+MONGODB | [212] localhost:27017 | organizador_test.update | SUCCEEDED | 0.003s
+MONGODB | [213] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bc')}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [213] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [214] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b2')}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [214] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [215] localhost:27017 #1 | organizador_test.count | STARTED | {"count"=>"participants", "query"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [215] localhost:27017 | organizador_test.count | SUCCEEDED | 0.000s
+MONGODB | [216] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"tasks", "ordered"=>true, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3')}, "u"=>{"$set"=>{"status"=>"in_process", "updated_at"=>2022-08-11 11:25:18.314123 UTC}}}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binar...
+MONGODB | [216] localhost:27017 | organizador_test.update | SUCCEEDED | 0.000s
+MONGODB | [217] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [217] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [218] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b5')}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [218] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [219] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b7')}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [219] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [220] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b9')}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [220] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [221] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bb')}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [221] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+  Rendering tasks/trigger.js.erb
+  Rendered tasks/trigger.js.erb (Duration: 0.7ms | Allocations: 122)
+Completed 200 OK in 27ms (Views: 2.1ms | MongoDB: 0.0ms | Allocations: 11370)
+MONGODB | [222] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48b3')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [222] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [223] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [223] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [224] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [224] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.002s
+MONGODB | [225] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [225] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [226] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [226] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [227] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [227] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [228] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person33@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [228] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [229] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bf'), "email"=>"person33@example.com", "encrypted_password"=>"$2a$04$mGthQwEc3ErCbAEW8WGfKeaMP82aE9zrJlKrznRK032ekSaDJCiu.", "updated_at"=>2022-08-11 11:2...
+MONGODB | [229] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [230] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person34@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [230] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [231] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c1'), "email"=>"person34@example.com", "encrypted_password"=>"$2a$04$ll9KIlgZ2cZJXdNrNvWyduFq32b4..aWovOBHgjwzyPYIl2gyrhs6", "updated_at"=>2022-08-11 11:2...
+MONGODB | [231] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [232] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person35@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [232] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [233] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c3'), "email"=>"person35@example.com", "encrypted_password"=>"$2a$04$zid1Hf81qJqYk1MlCW2y5OU7PvRaRLKE7A2U3tj8gpR7Vl6OMR6ZS", "updated_at"=>2022-08-11 11:2...
+MONGODB | [233] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [234] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person36@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [234] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [235] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c5'), "email"=>"person36@example.com", "encrypted_password"=>"$2a$04$UNSkBhpZ0Nu/UHk8dELzPec.WO3kqJ8mlL8tGUuWlDPpjm1bi0Nv2", "updated_at"=>2022-08-11 11:2...
+MONGODB | [235] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [236] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"participants", "ordered"=>true, "updates"=>[{"q"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bd'), "_id"=>{"$nin"=>[BSON::ObjectId('62f4e71ec0411c8106bc48be'), BSON::ObjectId('62f4e71ec0411c8106bc48c0'), BSON::ObjectId('62f4e71ec041...
+MONGODB | [236] localhost:27017 | organizador_test.update | SUCCEEDED | 0.000s
+MONGODB | [237] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 4"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [237] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [238] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"name"=>"Categoria 9"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [238] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [239] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"categories", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c6'), "name"=>"Categoria 9", "description"=>"Rerum laborum eum non.", "updated_at"=>2022-08-11 11:25:18.396154 UTC, "created_at"=>2022-08-11 11:25:18...
+MONGODB | [239] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [240] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person32@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [240] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [241] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 4"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [241] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [242] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c7'), "email"=>"person32@example.com", "encrypted_password"=>"$2a$04$F7JlnvFSTw3TtuSkd8IUZe1/n2FfgdQqOEFkP3i4K/c3CdczmSyL.", "updated_at"=>2022-08-11 11:2...
+MONGODB | [242] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [243] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 4"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [243] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [244] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"tasks", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bd'), "transitions"=>[], "status"=>"pending", "name"=>"Tarea 4", "description"=>"Descripcion 4", "due_date"=>2022-08-26 00:00:00 UTC, "category_id"=>BSON:...
+MONGODB | [244] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [245] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bd')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [245] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [246] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48be'), "user_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bf'), "task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bd'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [246] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [247] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c0'), "user_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c1'), "task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bd'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [247] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [248] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c2'), "user_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c3'), "task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bd'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [248] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [249] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c4'), "user_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48c5'), "task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bd'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [249] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [250] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e71ec0411c8106bc48bd')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [250] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [251] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>{"$in"=>[BSON::ObjectId('62f4e71ec0411c8106bc48bf'), BSON::ObjectId('62f4e71ec0411c8106bc48c1'), BSON::ObjectId('62f4e71ec0411c8106bc48c3'), BSON::ObjectId('62f4e71ec0411c8106bc48c5')]}}, "$db"=>"organizador_test", ...
+MONGODB | [251] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+  Rendering participant_mailer/new_task_email.html.haml within layouts/mailer
+  Rendered participant_mailer/new_task_email.html.haml within layouts/mailer (Duration: 4.6ms | Allocations: 3931)
+ParticipantMailer#new_task_email: processed outbound mail in 2153.2ms
+  Rendering participant_mailer/new_task_email.html.haml within layouts/mailer
+  Rendered participant_mailer/new_task_email.html.haml within layouts/mailer (Duration: 0.3ms | Allocations: 100)
+ParticipantMailer#new_task_email: processed outbound mail in 1.2ms
+  Rendering participant_mailer/new_task_email.html.haml within layouts/mailer
+  Rendered participant_mailer/new_task_email.html.haml within layouts/mailer (Duration: 0.2ms | Allocations: 94)
+ParticipantMailer#new_task_email: processed outbound mail in 0.9ms
+  Rendering participant_mailer/new_task_email.html.haml within layouts/mailer
+  Rendered participant_mailer/new_task_email.html.haml within layouts/mailer (Duration: 0.2ms | Allocations: 94)
+ParticipantMailer#new_task_email: processed outbound mail in 0.8ms
+  Rendering participant_mailer/new_task_email.html.haml within layouts/mailer
+  Rendered participant_mailer/new_task_email.html.haml within layouts/mailer (Duration: 0.2ms | Allocations: 96)
+ParticipantMailer#new_task_email: processed outbound mail in 0.8ms
+MONGODB | [252] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [252] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [253] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [253] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.001s
+MONGODB | [254] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [254] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.001s
+MONGODB | [255] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [255] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [256] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [256] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+undefined method `participants' for nil:NilClass
+MONGODB | [257] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [257] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [258] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [258] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [259] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [259] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [260] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [260] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [261] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [261] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [262] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person38@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [262] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [263] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48ca'), "email"=>"person38@example.com", "encrypted_password"=>"$2a$04$QrKrD0htquFZu/Srkte83O8byvKw4t3Xq9UtiF9pJBbVc8skSdn6i", "updated_at"=>2022-08-11 11:2...
+MONGODB | [263] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.001s
+MONGODB | [264] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person39@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [264] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [265] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48cc'), "email"=>"person39@example.com", "encrypted_password"=>"$2a$04$89apVZPr21LVWWMYBb4LneFahVFOa9zJlURxOVy0A.pWnPJ2l5B5S", "updated_at"=>2022-08-11 11:2...
+MONGODB | [265] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [266] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person40@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [266] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [267] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48ce'), "email"=>"person40@example.com", "encrypted_password"=>"$2a$04$F.6J.0F94u5/RruKCdPkJeEaSwdf7ogpNx7r/zsGaa1KznH1w2j7a", "updated_at"=>2022-08-11 11:2...
+MONGODB | [267] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [268] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person41@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [268] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [269] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48d0'), "email"=>"person41@example.com", "encrypted_password"=>"$2a$04$Q3e9V3oxO93auhuaA67RcO8wJwi8zqILMwYIHRgBErcOSniqwAnA2", "updated_at"=>2022-08-11 11:2...
+MONGODB | [269] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [270] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"participants", "ordered"=>true, "updates"=>[{"q"=>{"task_id"=>BSON::ObjectId('62f4e720c0411c8106bc48c8'), "_id"=>{"$nin"=>[BSON::ObjectId('62f4e720c0411c8106bc48c9'), BSON::ObjectId('62f4e720c0411c8106bc48cb'), BSON::ObjectId('62f4e720c041...
+MONGODB | [270] localhost:27017 | organizador_test.update | SUCCEEDED | 0.000s
+MONGODB | [271] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 5"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [271] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [272] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"categories", "filter"=>{"name"=>"Categoria 10"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [272] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [273] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"categories", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48d1'), "name"=>"Categoria 10", "description"=>"Harum sed in aliquam.", "updated_at"=>2022-08-11 11:25:20.652747 UTC, "created_at"=>2022-08-11 11:25:20...
+MONGODB | [273] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [274] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person37@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [274] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [275] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 5"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [275] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [276] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48d2'), "email"=>"person37@example.com", "encrypted_password"=>"$2a$04$ePQmoX3PUPb3QpQK3dfhK.7.QKap0B866UVPNC3JBEEcFaumHWcei", "updated_at"=>2022-08-11 11:2...
+MONGODB | [276] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [277] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"name"=>"Tarea 5"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [277] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [278] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"tasks", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48c8'), "transitions"=>[], "status"=>"pending", "name"=>"Tarea 5", "description"=>"Descripcion 5", "due_date"=>2022-08-26 00:00:00 UTC, "category_id"=>BSON:...
+MONGODB | [278] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [279] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"task_id"=>BSON::ObjectId('62f4e720c0411c8106bc48c8')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [279] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [280] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48c9'), "user_id"=>BSON::ObjectId('62f4e720c0411c8106bc48ca'), "task_id"=>BSON::ObjectId('62f4e720c0411c8106bc48c8'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [280] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [281] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48cb'), "user_id"=>BSON::ObjectId('62f4e720c0411c8106bc48cc'), "task_id"=>BSON::ObjectId('62f4e720c0411c8106bc48c8'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [281] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [282] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48cd'), "user_id"=>BSON::ObjectId('62f4e720c0411c8106bc48ce'), "task_id"=>BSON::ObjectId('62f4e720c0411c8106bc48c8'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [282] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [283] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"participants", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48cf'), "user_id"=>BSON::ObjectId('62f4e720c0411c8106bc48d0'), "task_id"=>BSON::ObjectId('62f4e720c0411c8106bc48c8'), "role"=>1, "updated_at"=>2022-0...
+MONGODB | [283] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+MONGODB | [284] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"tasks", "ordered"=>true, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48c8')}, "u"=>{"$set"=>{"transitions"=>[{"from_state"=>:pending, "to_state"=>:in_process, "current_event"=>:start!, "timestamp"=>2022-08-11 11:25:20.667...
+MONGODB | [284] localhost:27017 | organizador_test.update | SUCCEEDED | 0.000s
+MONGODB | [285] localhost:27017 #1 | organizador_test.update | STARTED | {"update"=>"tasks", "ordered"=>true, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48c8')}, "u"=>{"$set"=>{"status"=>"in_process", "updated_at"=>2022-08-11 11:25:20.669209 UTC}}}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binar...
+MONGODB | [285] localhost:27017 | organizador_test.update | SUCCEEDED | 0.000s
+MONGODB | [286] localhost:27017 #1 | organizador_test.listCollections | STARTED | {"listCollections"=>1, "cursor"=>{}, "nameOnly"=>true, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [286] localhost:27017 | organizador_test.listCollections | SUCCEEDED | 0.000s
+MONGODB | [287] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"tasks", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [287] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [288] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"users", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [288] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [289] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"categories", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [289] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [290] localhost:27017 #1 | organizador_test.delete | STARTED | {"delete"=>"participants", "ordered"=>true, "deletes"=>[{"q"=>{}, "limit"=>0}], "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [290] localhost:27017 | organizador_test.delete | SUCCEEDED | 0.000s
+MONGODB | [291] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"person42@example.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [291] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+MONGODB | [292] localhost:27017 #1 | organizador_test.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('62f4e720c0411c8106bc48d3'), "email"=>"person42@example.com", "encrypted_password"=>"$2a$04$A7J62E.Ao.c6jW6/jQS8POMUFdO6CCISCIAAIUxRV38h/Fm3X7N22", "updated_at"=>2022-08-11 11:2...
+MONGODB | [292] localhost:27017 | organizador_test.insert | SUCCEEDED | 0.000s
+Started GET "/tasks" for 127.0.0.1 at 2022-08-11 08:25:20 -0300
+Processing by TasksController#index as HTML
+MONGODB | [293] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"participants", "filter"=>{"user_id"=>BSON::ObjectId('62f4e720c0411c8106bc48d3')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [293] localhost:27017 | organizador_test.find | SUCCEEDED | 0.001s
+MONGODB | [294] localhost:27017 #1 | organizador_test.find | STARTED | {"find"=>"tasks", "filter"=>{"owner_id"=>BSON::ObjectId('62f4e720c0411c8106bc48d3')}, "$db"=>"organizador_test", "lsid"=>{"id"=><BSON::Binary:0x17900 type=uuid data=0x08aa9bcc795140ae...>}}
+MONGODB | [294] localhost:27017 | organizador_test.find | SUCCEEDED | 0.000s
+  Rendering tasks/index.html.haml within layouts/application
+  Rendered tasks/index.html.haml within layouts/application (Duration: 0.0ms | Allocations: 4)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navbar.html.haml (Duration: 1.7ms | Allocations: 601)
+  Rendered layouts/_messages.html.haml (Duration: 0.0ms | Allocations: 17)
+Completed 200 OK in 22ms (Views: 15.6ms | MongoDB: 0.0ms | Allocations: 6910)
